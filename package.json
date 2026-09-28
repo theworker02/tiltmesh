@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tiltmesh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tilt HTML/Markdown mesh fragments safely for docs pipelines.",
+  "bin": {
+    "tiltmesh": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tiltmesh.git"
+  },
+  "homepage": "https://theworker02.github.io/tiltmesh/",
+  "keywords": [
+    "tilt",
+    "mesh",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
